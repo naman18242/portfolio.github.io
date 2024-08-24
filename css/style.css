@@ -1,0 +1,84 @@
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+h2{
+    font-weight: bold;
+}
+nav{
+    background: rgb(11, 11, 11);
+
+}
+nav ul li a:hover{
+    background: #ff4500;
+}
+.mybtn{
+    background: #ff4500;
+border-color:transparent;
+border-radius: 5px;
+color:rgb(255, 255, 255);
+font-weight: 500;
+}
+.mybtn1{
+    background: rgb(255, 255, 255);
+
+border-color:rgb(191, 0, 255);
+border-radius: 6px;
+color:rgb(95, 0, 237);
+font-weight: bold;
+}
+#banner{
+
+    background-color: black;
+    height: auto;
+    color:white;
+   background-image: url(../images/banner.png);
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center center;
+   padding-bottom: 93px;
+}
+   
+#banner h2{
+     font-size: 4.7rem;
+     text-align: center;
+     margin-top: 134px;
+}  
+#banner h3{
+    font-size: 2.7rem;
+    text-align: center;
+}   
+#banner button{
+    font-size: 20px;
+}  
+#portfolio h2{
+    font-size: 43px;
+    padding-bottom: 20px;
+}
+#contact ul li{
+    list-style-type: none;
+}
+@media screen and (max-width: 880px) {
+
+    #banner{
+        padding: 0;
+padding-bottom: 22px;
+height: auto;
+    }
+    #banner h2{
+        font-size:43px;
+        margin-top: 34px;
+    }
+    #banner h3{
+        font-size:26px;
+        
+    }
+    #banner button{
+        font-size: 18px;
+    } 
+    #portfolio h2{
+        font-size: 33px;
+        padding-bottom: 20px;
+    } 
+}
+
