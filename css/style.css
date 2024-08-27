@@ -88,9 +88,30 @@ font-weight: bold;
     font-size: 43px;
     padding-bottom: 20px;
 }
-#contact ul li{
-    list-style-type: none;
+#contact .contact1{
+    width: 74px;
+    height: 55px;
+    background-color: rgb(255, 94, 0);
+    position: fixed;
+    right:0;
+    bottom: 44px;
+    transition: 0.5s all;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    cursor: pointer;
+    color:white;
+    overflow: hidden;
 }
+#contact .contact1:hover{
+    width: 274px;
+    height: 60px;
+    background-color: rgb(255, 94, 0);
+    position: fixed;
+    right:0;
+    bottom: 44px;
+    transition: 0.5s all;
+}
+
 @media screen and (max-width: 880px) {
 
     #banner{
